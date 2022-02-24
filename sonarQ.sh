@@ -8,7 +8,7 @@ echo " "
 sleep 2
 if [ ${UID} != 0 ]
 then
-echo "you can run this script"
+echo "you can now run this script"
 
 else
 echo "you need to run this as a regular user"
