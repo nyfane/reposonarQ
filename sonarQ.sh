@@ -13,6 +13,7 @@ passwd vagrant
 
 else
 echo "you need to run this as a regular user"
+exit 1
 fi 
 
 echo " "
