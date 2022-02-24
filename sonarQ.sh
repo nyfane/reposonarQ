@@ -97,7 +97,7 @@ sudo yum install net-tools -y
 
 sleep 3
 echo " "
-echo "please use this link to connect to the SonarQube server through the browser. http://$(ifconfig eth1|head -2|tail -1|awk '{print $2}':9000"
+echo "please use this link to connect to the SonarQube server through the browser. http://$(ifconfig eth1|head -2|tail -1|awk '{print $2}'):9000"
 
 echo " "
 sleep 3
