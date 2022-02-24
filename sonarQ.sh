@@ -38,7 +38,7 @@ sudo yum install java-11-openjdk -y
 
 echo " "
 
-echo -e "\n please let's navigate to the /opt directory "
+echo -e "\n please let's navigate to the /opt directory\n"
 sleep 2
 cd /opt
 echo " "
