@@ -8,8 +8,7 @@ echo " "
 sleep 2
 if [ ${UID} != 0 ]
 then
-su - vagrant
-passwd vagrant
+echo "you can run this script"
 
 else
 echo "you need to run this as a regular user"
