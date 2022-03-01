@@ -8,7 +8,7 @@ echo " "
 sleep 2
 if [ ${UID} != 0 ]
 then
-echo "you can now run this script"
+echo "you are about to install and configure SonarQube server on centos7"
 
 else
 echo "you need to run this as a regular user"
